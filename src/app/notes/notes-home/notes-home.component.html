@@ -1,0 +1,30 @@
+<xng-breadcrumb class="mb-3"></xng-breadcrumb>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Last updated</th>
+    <th scope="col">Created by</th>
+    <th scope="col">Notes in this notebook</th>
+    <th scope="col">Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor='let notebook of notebooks | async' class="table">
+    <td>{{notebook.id}}</td>
+    <td>{{notebook.name}}</td>
+    <td>{{notebook.created | date : 'dd/MM/yyyy h:mm:ss a ' }}</td>
+    <td>{{notebook.createdBy}}</td>
+    <td>4</td>
+    <td>
+      <a mat-icon-button (click)="editNotebook(notebook)">
+        <mat-icon>edit</mat-icon>
+      </a>
+      <a mat-icon-button (click)="deleteNotebook(notebook)">
+        <mat-icon>delete</mat-icon>
+      </a>
+    </td>
+  </tr>
+  </tbody>
+</table>

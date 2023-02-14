@@ -1,0 +1,33 @@
+2021-07-07 00:03:45 [32minfo[39m: [79097] Master Started 
+2021-07-07 00:03:45 [32minfo[39m: Cluster metrics server listening to 5555, metrics exposed on http://localhost:5555/metrics 
+2021-07-07 00:03:47 [33mwarn[39m: [79133] Worker Stopped Wed Jul 07 2021 00:03:47 GMT+1000 (Australian Eastern Standard Time) 
+2021-07-07 00:03:48 [33mwarn[39m: [79169] Worker Stopped Wed Jul 07 2021 00:03:48 GMT+1000 (Australian Eastern Standard Time) 
+2021-07-07 00:03:49 [33mwarn[39m: [79205] Worker Stopped Wed Jul 07 2021 00:03:49 GMT+1000 (Australian Eastern Standard Time) 
+2021-07-07 00:03:51 [33mwarn[39m: [79242] Worker Stopped Wed Jul 07 2021 00:03:51 GMT+1000 (Australian Eastern Standard Time) 
+2021-07-07 00:03:52 [33mwarn[39m: [79278] Worker Stopped Wed Jul 07 2021 00:03:52 GMT+1000 (Australian Eastern Standard Time) 
+2021-07-07 00:03:53 [33mwarn[39m: [79315] Worker Stopped Wed Jul 07 2021 00:03:53 GMT+1000 (Australian Eastern Standard Time) 
+2021-07-07 00:09:27 [32minfo[39m: [79816] Master Started 
+2021-07-07 00:09:27 [32minfo[39m: Cluster metrics server listening to 5555, metrics exposed on http://localhost:5555/metrics 
+2021-07-07 00:09:29 [32minfo[39m: CORS enabled for http://localhost:3000/, http://localhost:3001/, http://localhost:5000/ 
+2021-07-07 00:09:29 [32minfo[39m: [79853] Worker started 
+2021-07-07 00:09:29 [32minfo[39m: Handlebar helpers registration started 
+2021-07-07 00:09:29 [33mwarn[39m: Code Injection is enabled. 
+2021-07-07 00:09:29 [31merror[39m: Loading custom handlebar helpers from ./custom_handlebar.json failed. File not found. 
+2021-07-07 00:09:29 [32minfo[39m: Handlebar helpers registration completed 
+2021-07-07 00:09:29 [32minfo[39m: Scheduled a backup cron job with specified cron: 0 * * * * 
+2021-07-07 00:09:29 [32minfo[39m: Worker sharing HTTP server at http://localhost:8081 ⛳ 
+2021-07-07 00:09:39 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/ requested by ::1 
+2021-07-07 00:09:39 [32minfo[39m: Children for /home/rlembcke/projects/tasker/tasker-ui/mock-server/ requested by ::1 
+2021-07-07 00:09:39 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/ requested by ::1 
+2021-07-07 00:09:48 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks requested by ::1 
+2021-07-07 00:09:48 [32minfo[39m: Children for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks requested by ::1 
+2021-07-07 00:09:48 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks requested by ::1 
+2021-07-07 00:09:50 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks/hello-world requested by ::1 
+2021-07-07 00:09:51 [32minfo[39m: Children for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks/hello-world requested by ::1 
+2021-07-07 00:09:51 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks/hello-world requested by ::1 
+2021-07-07 00:10:01 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks requested by ::1 
+2021-07-07 00:10:01 [32minfo[39m: Children for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks requested by ::1 
+2021-07-07 00:10:01 [32minfo[39m: Stat for /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks requested by ::1 
+2021-07-07 00:10:11 [33mwarn[39m: Unexpected number in JSON at position 39 
+2021-07-07 00:10:11 [31merror[39m: No suitable mock file found: /home/rlembcke/projects/tasker/tasker-ui/mock-server/mocks/__/GET.mock 
+2021-07-07 00:10:11 [33mwarn[39m: HTTP GET /favicon.ico :: Query Parameters: {} | Request Headers {"host":"localhost:8081","connection":"keep-alive","sec-ch-ua":"\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"http://localhost:8081/hello-world","accept-encoding":"gzip, deflate, br","accept-language":"en-AU,en;q=0.9,es-PE;q=0.8,es;q=0.7,en-GB;q=0.6,en-US;q=0.5"} | Request Body {} 
